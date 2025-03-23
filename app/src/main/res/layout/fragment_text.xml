@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/textView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тень от руин нависает над вами, наполняя вас решимостью."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/button_back"
+        android:layout_marginBottom="24dp"
+        android:gravity="left"
+        android:paddingHorizontal="24dp"
+        android:layout_marginHorizontal="24dp" />
+
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
+        android:text=" ← Вернуться к сохранению"
+        android:background="@drawable/button_black_white"
+        android:textColor="#FFFF00"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
